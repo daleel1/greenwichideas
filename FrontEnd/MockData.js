@@ -1,0 +1,1 @@
+var ideas=[{title: "ideas1", description: "desss", catacory: "A", likes: 0, dislikes: 0, comments:[] }];
