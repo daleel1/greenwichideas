@@ -2,7 +2,16 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 
-    
+.btn-link {
+  color: red !important;
+  outline: none !important;
+}
+.comment {
+  text-align: left;
+  margin: 2%;
+  border: rgb(235, 225, 225) solid;
+  padding: 0.50%;
+}
 
 nav {
   position: absolute;
@@ -247,7 +256,7 @@ body,
 input,
 select,
 textarea {
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14pt;
   font-weight: 300;
@@ -336,7 +345,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: black;
   font-weight: 400;
   line-height: 1.5;
   margin: 0 0 1em 0;
@@ -709,7 +718,7 @@ input[type="radio"] + label:before {
 .box {
   border-radius: 4px;
   margin-bottom: 2em;
-  background: #2c2c32;
+  background: #f0f0f0;
   text-align: center;
 }
 
@@ -1510,7 +1519,7 @@ body.is-loading #banner:before {
 
 #footer {
   padding: 4em 0 2em 0;
-  background-color: #1b1b1f;
+  background-color: #c9bec4;
   text-align: center;
 }
 
