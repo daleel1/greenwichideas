@@ -31,6 +31,8 @@
                   name="name"
                   id="name"
                   placeholder="Your Name"
+                  maxlength="20"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -40,15 +42,21 @@
                   name="email"
                   id="email"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div class="form-group">
+                <label> Password, contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter</label>
+
                 <input
                   type="text"
                   class="form-input"
                   name="password"
                   id="password"
                   placeholder="Password"
+                  minlength="6"
+                  maxlength="30"
+                  required
                 />
                 <span
                   toggle="#password"
@@ -56,12 +64,15 @@
                 ></span>
               </div>
               <div class="form-group">
+                <label>Repeat Password</label>
                 <input
                   type="password"
                   class="form-input"
                   name="re_password"
                   id="re_password"
                   placeholder="Repeat your password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  required
                 />
               </div>
               <div class="form-group">
