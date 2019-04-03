@@ -6,17 +6,17 @@ body {
   color: #333;
 }
 
- header {
+header {
   background: #111;
 }
 
- .headline {
+.headline {
   position: relative;
   height: 400px;
   color: #fff;
   text-align: center;
-  background: url("https://farm9.staticflickr.com/8088/8363737128_b76782c7a2_b.jpg")
-    no-repeat center center;
+  background: url("https://i.postimg.cc/D0YS0J9f/banner.jpg") no-repeat center
+    center;
   background-size: cover;
 }
 .headline:after {
@@ -29,7 +29,7 @@ body {
   background: rgba(17, 17, 17, 0.5);
 }
 
- .inner {
+.inner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +52,7 @@ body {
   font-family: serif;
 }
 
- nav {
+nav {
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -80,7 +80,7 @@ nav a:hover {
   color: #ededed;
 }
 
- .logo {
+.logo {
   height: 75px;
   float: left;
 }
@@ -102,7 +102,7 @@ nav a:hover {
   left: 34px;
 }
 
- section {
+section {
   width: 100%;
   margin: 25px auto;
   padding: 20px;
@@ -112,7 +112,7 @@ nav a:hover {
   box-sizing: border-box;
 }
 
- @-webkit-keyframes fade-in {
+@-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -121,7 +121,7 @@ nav a:hover {
   }
 }
 
- @keyframes fade-in {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
